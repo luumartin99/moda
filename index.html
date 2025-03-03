@@ -35,26 +35,28 @@
 
 
 
-        .button {
+      .button {
     display: block;
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin: 10px 0;
-    background-color: #444444; /* Cinza Escuro*/
+    background: none; /* Remove qualquer fundo */
     color: white;
     font-size: 18px;
     text-align: center;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    transition: background 0.3s;
-    border: none;
+    transition: background 0.3s, color 0.3s;
+    border: 2px solid white; /* Opcional: borda branca para destacar */
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #E66A00; /* Laranja escuro */
+    background-color: rgba(255, 255, 255, 0.2); /* Um leve efeito ao passar o mouse */
+    color: #E66A00; /* Cor do texto ao passar o mouse */
 }
+
 
         h1 {
             color: #333;
