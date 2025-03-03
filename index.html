@@ -21,40 +21,41 @@
         }
 
         .container {
-            width: 350px;
-            background: rgba(255, 255, 255, 0.9);
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
             padding: 20px;
-            border-radius: 10px;
-            text-align: center;
+            margin: 0 auto;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
 
-
+        .left, .right {
+            width: 45%; /* Cada grupo terá 45% da largura da tela */
+        }
 
         .button {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    margin: 10px 0;
-    background-color: #444444; /* Cinza Escuro*/
-    color: white;
-    font-size: 18px;
-    text-align: left;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s;
-    border: none;
-    cursor: pointer;
-}
+            display: block;
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            background-color: #444444; /* Cinza Escuro*/
+            color: white;
+            font-size: 18px;
+            text-align: left;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+        }
 
-.button:hover {
-    background-color: #E66A00; /* Laranja escuro */
-}
+        .button:hover {
+            background-color: #E66A00; /* Laranja escuro */
+        }
 
         h1 {
             color: #333;
@@ -83,18 +84,31 @@
 </head>
 <body>
     <div class="container">
-       
-        <a href="https://shopee.com.br/" class="button">Produto 1</a>
-        <a href="https://mercadolivre.com.br/" class="button">Produto 2</a>
-        <a href="https://amazon.com.br/" class="button">Produto 3</a>
-        <a href="https://amazon.com.br/" class="button">Produto 4</a>
-        <a href="https://amazon.com.br/" class="button">Produto 5</a>
-        <a href="https://amazon.com.br/" class="button">Produto 6</a>
-        <a href="https://amazon.com.br/" class="button">Produto 7</a>
-        <a href="https://amazon.com.br/" class="button">Produto 8</a>
-        <a href="https://amazon.com.br/" class="button">Produto 9</a>
-        <a href="https://amazon.com.br/" class="button">Produto 10</a>
-
+        <div class="left">
+            <a href="https://shopee.com.br/" class="button">Produto 1</a>
+            <a href="https://mercadolivre.com.br/" class="button">Produto 2</a>
+            <a href="https://amazon.com.br/" class="button">Produto 3</a>
+            <a href="https://amazon.com.br/" class="button">Produto 4</a>
+            <a href="https://amazon.com.br/" class="button">Produto 5</a>
+            <a href="https://amazon.com.br/" class="button">Produto 6</a>
+            <a href="https://amazon.com.br/" class="button">Produto 7</a>
+            <a href="https://amazon.com.br/" class="button">Produto 8</a>
+            <a href="https://amazon.com.br/" class="button">Produto 9</a>
+            <a href="https://amazon.com.br/" class="button">Produto 10</a>
+        </div>
+        
+        <div class="right">
+            <a href="https://amazon.com.br/" class="button">Produto 11</a>
+            <a href="https://amazon.com.br/" class="button">Produto 12</a>
+            <a href="https://amazon.com.br/" class="button">Produto 13</a>
+            <a href="https://amazon.com.br/" class="button">Produto 14</a>
+            <a href="https://amazon.com.br/" class="button">Produto 15</a>
+            <a href="https://amazon.com.br/" class="button">Produto 16</a>
+            <a href="https://amazon.com.br/" class="button">Produto 17</a>
+            <a href="https://amazon.com.br/" class="button">Produto 18</a>
+            <a href="https://amazon.com.br/" class="button">Produto 19</a>
+            <a href="https://amazon.com.br/" class="button">Produto 20</a>
+        </div>
     </div>
 </body>
 </html>
